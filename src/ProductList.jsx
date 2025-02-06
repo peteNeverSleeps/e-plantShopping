@@ -129,10 +129,10 @@ function ProductList() {
     setShowCart(false);
   };
 
-  const handleContinueShopping = (e) => {
-    e.preventDefault();
+  const handleContinueShopping = () => {
     setShowCart(false);
   };
+  
 
   const handleAddToCart = (plant) => {
     dispatch(addItem(plant));
